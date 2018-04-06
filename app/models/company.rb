@@ -1,4 +1,6 @@
 class Company < ApplicationRecord
+    has_many :lessons
+    
     validates :name, presence: true, length: { in: 3..254 }
 
     enum plan_level: [ :legacy, :custom, :basic, :plus, :growth, :enterprise ]
