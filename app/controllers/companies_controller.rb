@@ -6,4 +6,8 @@ class CompaniesController < ApplicationController
   def alphabetize
     render json: { data: Company.alphabetize }
   end
+
+  def with_modern_plan
+    render json: { data: Company.modern }
+  end
 end
