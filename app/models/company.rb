@@ -7,6 +7,8 @@ class Company < ApplicationRecord
 
     before_create :set_default_plan, :set_trial_status
 
+    scope :alphabetize, -> { order(name: :asc) }
+
     private
         def set_default_plan
             self.plan_level ||= 2
