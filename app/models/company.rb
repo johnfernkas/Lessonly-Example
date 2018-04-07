@@ -9,6 +9,7 @@ class Company < ApplicationRecord
 
     scope :alphabetize, -> { order(name: :asc) }
     scope :modern, -> { where('plan_level != 0 AND plan_level != 1') }
+    scope :not_trialing, -> { where('trial_status < ?', DateTime.now) }
 
     private
         def set_default_plan
