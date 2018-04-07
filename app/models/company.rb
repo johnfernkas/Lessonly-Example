@@ -8,6 +8,7 @@ class Company < ApplicationRecord
     before_create :set_default_plan, :set_trial_status
 
     scope :alphabetize, -> { order(name: :asc) }
+    scope :modern, -> { where('plan_level != 0 AND plan_level != 1') }
 
     private
         def set_default_plan
