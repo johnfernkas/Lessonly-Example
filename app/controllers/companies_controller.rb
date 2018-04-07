@@ -3,7 +3,7 @@ class CompaniesController < ApplicationController
     render json: { data: Company.all }
   end
 
-  def alphabetize
+  def alphabetically
     render json: { data: Company.alphabetize }
   end
 
