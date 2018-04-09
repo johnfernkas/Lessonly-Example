@@ -1,24 +1,17 @@
-# README
+# Lessonly Example
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* [PR 1](https://github.com/johnfernkas/lessonly-example/pull/1) Setup company model
 
-Things you may want to cover:
+* [PR 2](https://github.com/johnfernkas/lessonly-example/pull/2) Setup lesson model
 
-* Ruby version
+* [PR 3](https://github.com/johnfernkas/lessonly-example/pull/3) Basic model tests
 
-* System dependencies
+* [PR 4](https://github.com/johnfernkas/lessonly-example/pull/4) Create companies controller
 
-* Configuration
+* [PR 5](https://github.com/johnfernkas/lessonly-example/pull/5) Return companies alphabetically
 
-* Database creation
+* [PR 6](https://github.com/johnfernkas/lessonly-example/pull/6) Return modern plan companies
 
-* Database initialization
+* [PR 7](https://github.com/johnfernkas/lessonly-example/pull/7) Return not trialing companies
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* [PR 8](https://github.com/johnfernkas/lessonly-example/pull/8) Return companies created one month ago
